@@ -368,7 +368,6 @@ current_state = "main_menu"  # Initial state
 
 running = True
 while running:
-    print("Hello")
     if current_state == "main_menu":
         win.fill(BACKGROUND_COLOR)  # Fill the window with the current background color
 
